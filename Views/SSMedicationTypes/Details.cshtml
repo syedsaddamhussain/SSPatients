@@ -1,0 +1,31 @@
+﻿@model SSPatients.Models.MedicationType
+
+@{
+    ViewData["Title"] = "Details of MedicationType";
+}
+
+<h1>Details of MedicationType</h1>
+
+<div>
+    <h4>MedicationType</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.MedicationTypeId)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.MedicationTypeId)
+        </dd>
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.MedicationTypeId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
