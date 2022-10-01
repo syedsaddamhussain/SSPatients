@@ -20,3 +20,4 @@ Try connecting to your local SQL Server Express server through Management Studio
 Ensure to perform build solution , scaffolding before running the project.
 Use:
 On webpage there will be various categories , choose the specified requirenment and data will be displayed accordingly.
+Note: The General Public License is a type of license that grants users the rights to use and distribute the software. This type of license allows anyone to copy, modify and redistribute any program as long as they agree to these terms. its benifits are Strong Copyleft Effectiveness, Ability for others to freely copy and distribute your work,helps protect the original work, GPL-licensed code can be used in commercial products.
